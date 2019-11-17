@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "now-build": "next build && next export -o dist"
+  },
+  "dependencies": {
+    "@cloud-annotations/object-detection": "0.0.8",
+    "@zeit/next-css": "^1.0.1",
+    "file-loader": "^4.2.0",
+    "next": "^8.0.1",
+    "next-images": "^1.2.0",
+    "next-transpile-modules": "^2.3.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-dropzone": "^8.1.0",
+    "url-loader": "^2.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0"
+  }
+}
